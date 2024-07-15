@@ -17,18 +17,26 @@ NetAlyze is a powerful packet sniffer written in Python, designed to filter and 
 ## Installation
 
 1.Clone the repository:<br>
-```git clone https://github.com/noni-i/NetAlyze.git```
+```<bash> 
+git clone https://github.com/noni-i/NetAlyze.git
+```
 
 2.Navigate to the project directory:<br>
-``cd NetAlyze``
+```<bash>
+cd NetAlyze
+```
 
 3.Install the required dependencies:<br>
-```pip install -r requirements.txt```
+```<bash>
+pip install -r requirements.txt
+```
 
 ## Usage
 To run NetAlyze, use the following command:
 
-```python netalyze.py```
+```<bash>
+python netalyze.py
+```
 
 ## Options
 
@@ -40,11 +48,15 @@ filter(port="porthere"): Filter packets by specific port.<br>
 
 Filter by IP address:
 
-```filter(ip.addr="192.168.0.1")```
+```<bash>
+filter(ip.addr="192.168.0.1")
+```
 
 Filter by protocol (TCP):
 
-```filter(tcp)```
+```<bash>
+filter(tcp)
+```
 
 Filter by port (80):
 
